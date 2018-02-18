@@ -7,7 +7,7 @@ import (
 	"strings"
 )
 
-var inputFile = "input"
+var inputFile = "../input"
 
 func check(e error) {
 	if e != nil {
@@ -28,7 +28,7 @@ func read() []int {
 	return arr
 }
 
-// selection sort
+// bubble sort
 func sort(data []int) []int {
 	arr := data
 	for i := 0; i < len(arr)-1; i++ {
