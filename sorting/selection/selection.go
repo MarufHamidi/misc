@@ -29,14 +29,18 @@ func read() []int {
 	return arr
 }
 
-// bubble sort
+// selection sort
 func sort(data []int) []int {
 	arr := data
 	for i := 0; i < len(arr)-1; i++ {
+		min, minj := arr[i], i
 		for j := i + 1; j < len(arr); j++ {
-			if arr[i] > arr[j] {
-				arr[i], arr[j] = arr[j], arr[i]
+			if min > arr[j] {
+				min, minj = arr[j], j
 			}
+		}
+		if i != minj {
+			arr[i], arr[minj] = arr[minj], arr[i]
 		}
 	}
 	return arr

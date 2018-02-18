@@ -4,6 +4,7 @@ Practice codes.
 
 #### Sorting
 
+###### Bubble sort
 ###### Selection sort 
 
 
