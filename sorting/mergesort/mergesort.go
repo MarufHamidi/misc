@@ -77,9 +77,7 @@ func combine(a []int, b []int) []int {
 
 // merge sort
 func sort(data []int) []int {
-	arr := data
-	arr = combine(divide(arr))
-	return arr
+	return combine(divide(data))
 }
 
 func main() {
