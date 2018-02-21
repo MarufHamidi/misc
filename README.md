@@ -7,6 +7,7 @@ Practice codes.
 ###### Bubble sort
 ###### Selection sort
 ###### Insertion sort
+###### Merge sort
 
 
 
