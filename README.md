@@ -8,7 +8,7 @@ Practice codes.
 ###### Selection sort
 ###### Insertion sort
 ###### Merge sort
-
+###### Quick sort
 
 
 ![alt text][logo]
